@@ -1,5 +1,5 @@
 .profbutton{
-    position: absolute;
+    position: fixed;
     right: 1%;
     top: 3%;
     height: 65px;

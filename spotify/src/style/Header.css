@@ -8,6 +8,7 @@ header {
   overflow: hidden;
   margin: 10px 0px 0px 30px;
   background-color: transparent;
+  z-index: 3;
 }
 
 h1 {

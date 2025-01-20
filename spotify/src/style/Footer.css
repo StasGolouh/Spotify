@@ -9,7 +9,9 @@
 }
 
 footer {
-    display: flex; 
+    display: flex;
+    position: fixed; 
+    bottom: 0;
     align-items: center;
     justify-content: space-between;
     width: 100%;

@@ -1,13 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './Header';
-import Footer from './Footer';
-import Main from '../pages/Main';
-import Profile from '../pages/Profile';
-import Sidebar from './Sidebar';
-import Artists from '../pages/Artists';
-import Albums from '../pages/Albums';
-import Music from '../pages/Music';
-import Podcasts from '../pages/Podcasts';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import Main from './Main';
+import Profile from './Profile';
+import Sidebar from '../components/Sidebar';
+import Artists from './Artists';
+import Albums from './Albums';
+import Music from './MusicPage';
+import Podcasts from './Podcasts';
 import '../style/MainPage.css';
 
 export default function MainPage() {
