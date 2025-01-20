@@ -5,7 +5,7 @@ export default function Profile() {
     return (
         <>
             <header className='profheader'>
-                <h2 className="headertext">Welcome, IhorPista</h2>
+                <h2 className="headertext">Welcome, IhorPishta</h2>
                 <img src="/images/backgrounds/back-headphones.png" className="backhead" alt="headphones" />
                 <img src="/images/backgrounds/back-nota.png" className="backnota" alt="nota" />
             </header>
