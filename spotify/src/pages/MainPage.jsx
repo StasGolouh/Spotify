@@ -19,7 +19,6 @@ export default function MainPage() {
                     <div className="content">
                         <Routes>
                             <Route exact path="/" element={<Main />} />
-                            <Route path="/profile" element={<Profile />} />
                             <Route path="/artists" element={<Artists />} />
                             <Route path="/albums" element={<Albums />} />
                             <Route path="/music" element={<Music />} />

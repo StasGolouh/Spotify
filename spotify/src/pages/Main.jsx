@@ -5,7 +5,7 @@ import ProfileButton from "../components/ProfileButton";
 
 export default function Main() {
   return (
-    <main>
+    <main id="mainpage">
       <NavButtons />
       <ProfileButton/>
       <div className="pllists">

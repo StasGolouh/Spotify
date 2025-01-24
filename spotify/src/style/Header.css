@@ -1,4 +1,4 @@
-header {
+.mainheader {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,10 +8,9 @@ header {
   overflow: hidden;
   margin: 10px 0px 0px 30px;
   background-color: transparent;
-  z-index: 3;
 }
 
-h1 {
+#header_text {
   font-family: 'BauhausBold', monospace;
   font-size: 50px;
   margin: 0;
@@ -21,12 +20,12 @@ h1 {
   color: #ffffff;
 }
 
-h1:hover {
+#header_text:hover {
   transform: skew(15deg);
   color: #7fcaff;
 }
 
-h1::before {
+#header_text::before {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -38,13 +37,13 @@ h1::before {
   transition: all 700ms ease-in-out;
 }
 
-h1:hover::before {
+#header_text:hover::before {
   top: -3px;
   padding-left: 5px;
   color: #fd79ff;
 }
 
-h1::after {
+#header_text::after {
   content: attr(data-text);
   position: absolute;
   top: 0;
@@ -55,7 +54,7 @@ h1::after {
   transition: all 200ms;
 }
 
-h1:hover::after {
+#header_text:hover::after {
   text-shadow: 0 0 15px #fd79ff;
 }
 .music-note {

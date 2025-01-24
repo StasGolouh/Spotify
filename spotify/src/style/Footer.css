@@ -8,18 +8,19 @@
     font-size: 2rem !important;
 }
 
-footer {
+.mainfooter {
     display: flex;
-    position: fixed; 
-    bottom: 0;
+    height: auto;
+    position: absolute; 
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    padding: 10px;
-    color: white;
+    bottom: -13%;
+    background-color: transparent; 
+    color: white; 
 }
 
-footer p{
+.mainfooter p{
   text-shadow:
         0 0 5px #fff,
         0 0 10px #fff,

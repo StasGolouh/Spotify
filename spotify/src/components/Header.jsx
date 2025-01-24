@@ -38,7 +38,7 @@ export default function Header(){
         return () => clearInterval(interval);
     }, []);
     return(
-        <header class = "header">
+        <header class = "mainheader">
             <h1 id="header_text" data-text = "Music⾕">Music⾕</h1>
         </header>
     )
