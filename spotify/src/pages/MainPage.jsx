@@ -10,24 +10,28 @@ import Music from './MusicPage';
 import Podcasts from './Podcasts';
 import '../style/MainPage.css';
 
+const MnPage = () => (
+    <>
+      <Header />
+      <Main />
+      <Sidebar />
+      <Footer />
+    </>
+  );
+
 export default function MainPage() {
     return (
         <Router>
             <div className="bodymain">
-                <div className="container">
-                    <Header />
-                    <div className="content">
-                        <Routes>
-                            <Route exact path="/" element={<Main />} />
-                            <Route path="/artists" element={<Artists />} />
-                            <Route path="/albums" element={<Albums />} />
-                            <Route path="/music" element={<Music />} />
-                            <Route path="/podcasts" element={<Podcasts />} />
-                        </Routes>
-                        <Sidebar />
-                    </div>
-                    <Footer />
-                </div>
+                <Routes>
+                    <Route exact path="/" element={<MnPage />} />
+                    <Route exact path="/profile" element={<Profile />} />
+
+                    <Route path="/artists" element={<Artists />} />
+                    <Route path="/albums" element={<Albums />} />
+                    <Route path="/music" element={<Music />} />
+                    <Route path="/podcasts" element={<Podcasts />} />
+                </Routes>
             </div>
         </Router>
     );
