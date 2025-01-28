@@ -3,7 +3,7 @@
     height: 135px;
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Центрування основного тексту та інших елементів */
     align-items: center;
     background: #333;
     box-shadow: 
@@ -38,13 +38,56 @@
 
 .backhead {
     position: absolute;
-    left: 30px;
+    left: 270px;
     top: 50%;
     transform: translateY(-50%) rotate(-20deg) scale(0.50);
     opacity: 0.8;
-}
-
-
-.backhead {
     filter: drop-shadow(0 0 150px #ff0080) brightness(250%);
 }
+
+.backhome {
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%) scale(0.35);
+    filter: drop-shadow(0 0 50px #ff0080) brightness(150%);
+}
+
+.backsettings {
+    position: absolute;
+    left: -35px;
+    top: 50%;
+    transform: translateY(-50%) scale(0.23);
+    filter: drop-shadow(0 0 20px #ff0080) brightness(150%);
+}
+
+.search-container {
+    position: absolute; 
+    right: 20px; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.search-box {
+    padding: 8px;
+    font-size: 16px;
+    width: 250px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    background: transparent; 
+    color: white; 
+    box-shadow: 
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #ff0080, 
+        0 0 30px #ff0080,
+        0 0 40px #ff0080,
+        0 0 50px #ff0080,
+        0 0 75px #ff0080;
+    outline: none;
+}
+
+.search-box::placeholder {
+    color: #ff0080;
+}
+
