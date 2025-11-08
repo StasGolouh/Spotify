@@ -58,5 +58,14 @@ cd Spotify
 
 # Install dependencies
 npm install
+
+# Installation of ESLint
+npm list eslint
 # or
 yarn install
+```
+
+### Run Project
+```bash
+npm start
+```
