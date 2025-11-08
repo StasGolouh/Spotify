@@ -5,24 +5,6 @@ It allows users to browse, search, and play song previews using the **Spotify We
 
 > ⚠️ This is an educational project and is not affiliated with Spotify.
 
----
-
-## 📋 Table of Contents
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Environment Variables](#environment-variables)
-  - [Running the App](#running-the-app)
-- [Usage](#-usage)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [Acknowledgements](#-acknowledgements)
-
----
-
 ## 🚀 Features
 - 🎵 Browse featured playlists and new releases from Spotify  
 - 🔍 Search for songs, albums, or artists  
